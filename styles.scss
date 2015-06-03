@@ -12,8 +12,13 @@ $greenborder: #7CD084;
   -webkit-box-sizing: border-box;
 }
 
+#page-wrapper {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
 .wrapper {
-  width: 50%;
+  width: 100%;
   margin: 0 auto 100px;
   text-align: center;
 }
@@ -49,7 +54,7 @@ CALCULATOR
 }
 
 #calculator {
-  width: 650px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -99,5 +104,19 @@ CALCULATOR
 
   &:hover {
     color: white;
+  }
+}
+
+/**************************
+QUERIES
+**************************/
+
+@media screen and (max-width: 649px) {
+  #page-wrapper {
+    width: 100%;
+  }
+
+  #calculator * {
+    font-size: 20px;
   }
 }
