@@ -1,0 +1,84 @@
+/**************************
+SETUP
+**************************/
+*, *:before, *:after {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box; }
+
+.wrapper {
+  width: 50%;
+  margin: 0 auto 100px;
+  text-align: center; }
+
+#addButton1,
+#subtractButton1,
+#multiplyButton1,
+#divideButton1 {
+  border: 1px solid #64B255;
+  padding: 5px;
+  background: default; }
+
+button {
+  background: none;
+  border: 0;
+  padding: 0;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0; }
+
+button:focus {
+  outline: 0; }
+
+/**************************
+CALCULATOR
+**************************/
+#calculator * {
+  font-size: 32px; }
+
+#calculator {
+  width: 650px;
+  margin: 0 auto; }
+
+#calcScreen {
+  display: inline-block;
+  margin: 0;
+  width: 75%;
+  text-align: right;
+  vertical-align: middle;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 5px;
+  border-right: 1px solid #7CD084;
+  overflow: hidden; }
+
+.calcRow {
+  width: 100%;
+  display: flex;
+  background-color: #64B255;
+  border-bottom: 1px solid #7CD084; }
+
+.calcButton {
+  width: 25%;
+  padding: 20px 2.5px;
+  border-right: 1px solid #7CD084;
+  color: white; }
+  .calcButton:hover {
+    background-color: #6CCA78; }
+  .calcButton > .calcButton:last-child {
+    border-right: 0; }
+
+#calcAdd,
+#calcSubtract,
+#calcMultiply,
+#calcDivide {
+  background-color: #6CCA78;
+  color: #2D5533; }
+  #calcAdd:hover,
+  #calcSubtract:hover,
+  #calcMultiply:hover,
+  #calcDivide:hover {
+    color: white; }
+
+/*# sourceMappingURL=styles.css.map */

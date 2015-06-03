@@ -1,0 +1,26 @@
+{
+  "name": "Day8-Project",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ClaytonKinder/Day8-Project",
+  "authors": [
+    "Clayton Kinder <ClaytonAlanKinder@gmail.com>"
+  ],
+  "description": "Basic Calculator Application",
+  "keywords": [
+    "Calculator",
+    "JavaScript",
+    "jQuery"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculators</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="page-wrapper">
+    <div class="wrapper">
+      <h3>Let's Do Some Math!</h3>
+
+      <input type="text" id="numOne" />
+      <br /><br />
+      <input type="text" id="numTwo" />
+      <br /><br />
+      <button id="addButton1">Add</button>
+      <button id="subtractButton1">Subtract</button>
+      <button id="multiplyButton1">Multiply</button>
+      <button id="divideButton1">Divide</button>
+
+      <div class="answer">
+        <br />
+        Answer:
+        <div id="answer1"></div>
+      </div>
+    </div>
+
+    <div id="calculator">
+      <div class="calcRow">
+        <button id="calcClear" class="calcButton" value="">C</button>
+        <div id="calcScreen">
+          <div id="calcScreenText">
+
+          </div>
+        </div>
+      </div>
+      <div class="calcRow">
+        <button id="calcSeven" class="calcButton numButton" value="7">7</button>
+        <button id="calcEight" class="calcButton numButton" value="8">8</button>
+        <button id="calcNine" class="calcButton numButton" value="9">9</button>
+        <button id="calcDivide" class="calcButton operButton" value="/">/</button>
+      </div>
+      <div class="calcRow">
+        <button id="calcFour" class="calcButton numButton" value="4">4</button>
+        <button id="calcFive" class="calcButton numButton" value="5">5</button>
+        <button id="calcSix" class="calcButton numButton" value="6">6</button>
+        <button id="calcMultiply" class="calcButton operButton" value="*">X</button>
+      </div>
+      <div class="calcRow">
+        <button id="calcOne" class="calcButton numButton" value="1">1</button>
+        <button id="calcTwo" class="calcButton numButton" value="2">2</button>
+        <button id="calcThree" class="calcButton numButton" value="3">3</button>
+        <button id="calcSubtract" class="calcButton operButton" value="-">-</button>
+      </div>
+      <div class="calcRow">
+        <button id="calcZero" class="calcButton numButton" value="0">0</button>
+        <button id="calcDecimal" class="calcButton numButton" value=".">.</button>
+        <button id="calcEquals" class="calcButton" value="=">=</button>
+        <button id="calcAdd" class="calcButton operButton" value="+">+</button>
+      </div>
+
+    </div>
+  </div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
